@@ -15,6 +15,9 @@
 		2976CCCA1C2D100E00562055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976CCC81C2D100E00562055 /* LaunchScreen.storyboard */; };
 		2976CCD51C2D100E00562055 /* cell___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CCD41C2D100E00562055 /* cell___Tests.m */; };
 		2976CCE01C2D100E00562055 /* cell___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CCDF1C2D100E00562055 /* cell___UITests.m */; };
+		2976CCEE1C2D102100562055 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2976CCED1C2D102100562055 /* city.plist */; };
+		2976CCF31C2D132300562055 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CCF01C2D132300562055 /* MyTableViewCell.m */; };
+		2976CCF41C2D132300562055 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CCF21C2D132300562055 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		2976CCDB1C2D100E00562055 /* cell的多选UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell的多选UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976CCDF1C2D100E00562055 /* cell___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell___UITests.m"; sourceTree = "<group>"; };
 		2976CCE11C2D100E00562055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976CCED1C2D102100562055 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		2976CCEF1C2D132300562055 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		2976CCF01C2D132300562055 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		2976CCF11C2D132300562055 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		2976CCF21C2D132300562055 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				2976CCD31C2D100E00562055 /* cell的多选Tests */,
 				2976CCDE1C2D100E00562055 /* cell的多选UITests */,
 				2976CCB81C2D100E00562055 /* Products */,
+				2976CCED1C2D102100562055 /* city.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,10 @@
 				2976CCBE1C2D100E00562055 /* AppDelegate.m */,
 				2976CCC01C2D100E00562055 /* ViewController.h */,
 				2976CCC11C2D100E00562055 /* ViewController.m */,
+				2976CCF11C2D132300562055 /* MyTableViewController.h */,
+				2976CCF21C2D132300562055 /* MyTableViewController.m */,
+				2976CCEF1C2D132300562055 /* MyTableViewCell.h */,
+				2976CCF01C2D132300562055 /* MyTableViewCell.m */,
 				2976CCC31C2D100E00562055 /* Main.storyboard */,
 				2976CCC61C2D100E00562055 /* Assets.xcassets */,
 				2976CCC81C2D100E00562055 /* LaunchScreen.storyboard */,
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976CCCA1C2D100E00562055 /* LaunchScreen.storyboard in Resources */,
+				2976CCEE1C2D102100562055 /* city.plist in Resources */,
 				2976CCC71C2D100E00562055 /* Assets.xcassets in Resources */,
 				2976CCC51C2D100E00562055 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976CCC21C2D100E00562055 /* ViewController.m in Sources */,
+				2976CCF41C2D132300562055 /* MyTableViewController.m in Sources */,
+				2976CCF31C2D132300562055 /* MyTableViewCell.m in Sources */,
 				2976CCBF1C2D100E00562055 /* AppDelegate.m in Sources */,
 				2976CCBC1C2D100E00562055 /* main.m in Sources */,
 			);
